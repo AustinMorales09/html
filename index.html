@@ -9,12 +9,12 @@
 
     <!-- 1.) Basic HTML and HTML5: Say Hello to HTML Elements -->
     <!-- To pass the test on this challenge, change your h1 element's text to say "Hello World". -->
-            <h1>Hello</h1>
+            <h1>Hello World</h1>
 
     <!--2.) Basic HTML and HTML5: Headline with the h2 Element -->
     <!-- Add an h2 tag that says "CatPhotoApp" to create a second HTML element below your "Hello World" h1 element. -->
     <h1>Hello World</h1>
-
+    <h2>CatPhotoApp</h2>
     <!--3.) Basic HTML and HTML5: Inform with the Paragraph Element -->
     <!-- Create a p element below your h2 element, and give it the text "Hello Paragraph". -->
     <h1>Hello World</h1>
@@ -26,31 +26,30 @@
 
     <h2>CatPhotoApp</h2>
 
-    <p>Hello Paragraph</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque dolore quos facere neque nulla ex.</p>
 
     <!--5.) Basic HTML and HTML5: Uncomment HTML -->
     <!-- Uncomment your h1, h2 and p elements. -->
-    <!--
+    
     <h1>Hello World</h1>
 
     <h2>CatPhotoApp</h2>
 
     <p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
-    -->
+   
 
     <!--6.) Basic HTML and HTML5: Comment out HTML -->
     <!-- Comment out your h1 element and your p element, but not your h2 element. -->
-    <!--
-    <h1>Hello World</h1>
+    
+    <!-- <h1>Hello World</h1> -->
 
     <h2>CatPhotoApp</h2>
 
     <p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
-    -->
+   
 
     <!--7.) Basic HTML and HTML5: Delete HTML Elements -->
     <!-- Delete your h1 element so we can simplify our view. -->
-    <h1>Hello World</h1>
 
     <h2>CatPhotoApp</h2>
 
@@ -61,9 +60,13 @@
     <!-- 
     Then, create a main element and nest the two p elements inside the main element. -->
     <h2>CatPhotoApp</h2>
-
+     <main>
     <p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
+    
+    <p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.
+      Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched. </p>
 
+    </main>
     <!--9.) Basic HTML and HTML5: Add Images to Your Website -->
     <!-- Let's try to add an image to our website:
 
@@ -76,8 +79,8 @@
     Finally, don't forget to give your img element an alt attribute with applicable text. -->
     <h2>CatPhotoApp</h2>
     <main>
-
-
+      
+      <img src="https://bit.ly/fcc-relaxing-cat" alt="cat">
     <p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
     <p>Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched.</p>
     </main>
@@ -86,7 +89,7 @@
     <!-- Create an a element that links to https://freecatphotoapp.com and has "cat photos" as its anchor text. -->
     <h2>CatPhotoApp</h2>
     <main>
-
+<a href="https://freecatphotoapp.com">cat photos</a>
 
 
     <img src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back.">
@@ -106,7 +109,7 @@
         <h2>CatPhotoApp</h2>
 <main>
 
-  <a href="https://freecatphotoapp.com" target="_blank">cat photos</a>
+  <a href="#footer" >Jump to bottom</a>
 
   <img src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back.">
 
@@ -117,19 +120,21 @@
 
 </main>
 
-<footer>Copyright Cat Photo App</footer>
+<footer id='footer'>Copyright Cat Photo App</footer>
     
 <!--12.) Basic HTML and HTML5: Nest an Anchor Element within a Paragraph -->
 <!-- Nest the existing a element within a new p element. The new paragraph should have text that says "View more cat photos", where "cat photos" is a link, and the rest is plain text. -->
     <h2>CatPhotoApp</h2>
     <main>
 
-    <a href="https://freecatphotoapp.com" target="_blank">cat photos</a>
 
     <img src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back.">
 
     <p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
     <p>Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched.</p>
+    <p>
+      View More <a href="https://freecatphotoapp.com" target="_blank">cat photos</a>
+    </p>
     </main>
 
     <!--13.) Basic HTML and HTML5: Make Dead Links Using the Hash Symbol -->
@@ -137,7 +142,7 @@
  For example: href="#" -->
  <h2>CatPhotoApp</h2>
  <main>
-   <p>Click here to view more <a href="https://freecatphotoapp.com" target="_blank">cat photos</a>.</p>
+   <p>Click here to view more <a href="#" target="_blank">cat photos</a>.</p>
  
    <img src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back.">
  
@@ -164,13 +169,18 @@
 <!-- 15.) Basic HTML and HTML5: Create a Bulleted Unordered List -->
 <!-- Remove the last two p elements and create an unordered list of three things that cats love at the bottom of the page. -->
 <h2>CatPhotoApp</h2>
+
 <main>
   <p>Click here to view more <a href="#">cat photos</a>.</p>
 
   <a href="#"><img src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back."></a>
 
-  <p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
-  <p>Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched.</p>
+ <ul>
+<li>cat nip</li>
+<li>laser pointers</li>
+<li>lasagne</li>
+ </ul>
+ 
 </main>
 
 <!--16.) Basic HTML and HTML5: Create an Ordered List -->
